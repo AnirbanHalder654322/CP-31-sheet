@@ -13,10 +13,7 @@ int main(){
         for(int i=0;i<n;i++){
         
         cin >> a[i];
-        if(a[i]%2==0)
-            a[i]=0;
-        else
-            a[i]=1;
+        a[i] = a[i]%2;
     }
         if(n==1){
             cout << 0 << endl;
